@@ -12,7 +12,9 @@ Running the code requries [Matlab](https://matlab.mathworks.com) and additional 
 
 To run the code:
 1. Clone (or download) this repository to a local directory.
-2. Go to the folder *data* and unzip the files *pfc8_snrpn.zip* and *pfc53_airn.zip*.
+2. Go to the folder *data* and unzip the files *pfc8_snrpn.zip* and *pfc53_airn.zip*. Keep the unzipped folders in the folder *data*.
+
+The setup is complete.
 
 
 ## Usage
