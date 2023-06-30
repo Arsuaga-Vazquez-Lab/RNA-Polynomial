@@ -10,12 +10,12 @@ This repository includes code and data for experiments in the following paper.
 
 Running the code requries [Matlab](https://matlab.mathworks.com) and additional [Matlab toolboxes](https://www.mathworks.com/products.html) including the Bioinformatics Toolbox and the Statistics and Machine Learning Toolbox.
 
-To run the code:
-1. Clone (or download) this repository to a local directory.
-2. Go to the folder *data* and unzip the files *pfc8_snrpn.zip* and *pfc53_airn.zip*. Keep the unzipped folders in the folder *data*.
+After installing Matlab and required Matlab toolboxes, 
+1. clone (or download) this repository to a local directory;
+2. go to the folder *data* and unzip the compressed files *pfc8_snrpn.zip* and *pfc53_airn.zip*;
+3. keep the unzipped folders *pfc8_snrpn* and *pfc53_airn* in the folder *data*.
 
-The setup is complete.
-
+Then, the setup is complete.
 
 ## Usage
 
