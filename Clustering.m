@@ -71,7 +71,7 @@ for type = 1:8 %type of tree representation
 
         i
 
-        F = strcat('data/Rfam/bpRNA_RFAM_',num2str(Data(i,1)),'.dbn');
+        F = strcat('data/bpRNA-Rfam/bpRNA_RFAM_',num2str(Data(i,1)),'.dbn');
         B = readdbn(F);
 
         P = dbn2pl(B,type);
@@ -91,7 +91,7 @@ for type = 1:8
 
 end
 
-save('Rfam')
+save('bpRNA_Rfam')
 
 %% Visualization
 
@@ -101,7 +101,7 @@ addpath("functions/ndSparse/")
 addpath("functions/")
 addpath("data/")
 
-load("data/Rfam.mat")
+load("data/bpRNA_Rfam.mat")
 
 fs = 16; %set font size
 ms = 20; %marker size
@@ -195,7 +195,7 @@ addpath("functions/ndSparse/")
 addpath("functions/")
 addpath("data/")
 
-load("data/Rfam.mat")
+load("data/bpRNA_Rfam.mat")
 
 rt = 1000; %repeating times
 
