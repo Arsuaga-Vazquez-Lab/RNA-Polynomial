@@ -12,3 +12,4 @@ Generated data in the experiments are available at Zenodo; see the following lin
 
 ## Usage
 
+The function **dbn2pl.m** converts a dot-bracket notation of an RNA secondary structure without pseudoknots into a parent list of its tree representation of a selected type.
