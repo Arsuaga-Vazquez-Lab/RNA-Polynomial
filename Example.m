@@ -8,6 +8,10 @@ addpath("functions/ndSparse/")
 %dot-bracket notation of the example
 B = '.(((.((.((...))...((((....)).)).)).)))..';
 
+%plot the secondary structure
+visualize(B)
+
+
 type = 1; %select tree type from 1 to 8.
 
 %convert dot-bracket notation to parent list
