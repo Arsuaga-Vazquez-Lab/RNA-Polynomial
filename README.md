@@ -16,4 +16,4 @@ The function **dbn2pl.m** converts a dot-bracket notation of an RNA secondary st
 
 The function **pl2poly.m** then computes the corresponding polynomial with the parent list of the tree representation.
 
-See the file **Example.m** for an example of using the functions.
+See the file **Example.m** for an example of using the functions to compute the tree polynomial representations of an RNA secondary structure.
