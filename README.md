@@ -10,6 +10,11 @@ This repository includes code and data for experiments in the following paper.
 
 Running the code requries [Matlab](https://matlab.mathworks.com) and additional [Matlab toolboxes](https://www.mathworks.com/products.html) including the Bioinformatics Toolbox and the Statistics and Machine Learning Toolbox.
 
+To run the code:
+1. Clone (or download) this repository to a local directory.
+2. Go to the folder *data* and unzip the files *pfc8_snrpn.zip* and *pfc53_airn.zip*.
+
+
 ## Usage
 
 The function **dbn2pl.m** converts a dot-bracket notation of an RNA secondary structure without pseudoknots into a parent list of its tree representation of a selected type.
