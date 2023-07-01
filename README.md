@@ -19,10 +19,16 @@ Then, the setup is complete.
 
 ## Usage
 
-### Compute the tree polynomial representations of an RNA secondary structure
+### To compute the tree polynomial representations of an RNA secondary structure
 
-The function **dbn2pl.m** converts a dot-bracket notation of an RNA secondary structure without pseudoknots into a parent list of its tree representation of a selected type.
+The function *dbn2pl.m* converts a dot-bracket notation of an RNA secondary structure without pseudoknots into a parent list of its tree representation of a selected type.
+The function *pl2poly.m* then computes the corresponding polynomial with the parent list of the tree representation.
+See the file *Example.m* for an example of using the functions to compute the tree polynomial representations of an RNA secondary structure.
 
-The function **pl2poly.m** then computes the corresponding polynomial with the parent list of the tree representation.
 
-See the file **Example.m** for an example of using the functions to compute the tree polynomial representations of an RNA secondary structure.
+
+### View the results in the paper
+
+
+### To reconduct the experiment and reproduce the results
+
