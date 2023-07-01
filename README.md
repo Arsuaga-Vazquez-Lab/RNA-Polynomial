@@ -25,8 +25,8 @@ The function *functions/dbn2pl.m* converts a dot-bracket notation of an RNA seco
 The function *functions/pl2poly.m* then computes the corresponding polynomial with the parent list of the tree representation.
 See the file *Example.m* for an example of using the functions to compute the tree polynomial representations of an RNA secondary structure.
 
-To compute the tree polynomial representations of your own data of an RNA secondary structure,
-1. convert the RNA secondary structure to the dot-bracket notation `dbn`;
+To compute the tree polynomial representations of one's own data of RNA secondary structures,
+1. convert an RNA secondary structure to the dot-bracket notation `dbn`;
 2. use `L = dbn2pl(dbn,type)` convert the dot-bracket notation `dbn` to the parent list `L` of its tree representation of a selected `type`;
 3. use `P = pl2poly(dbn,type)` to compute the corresponding polynomial `P` from the parent list `L` of the tree representation.
 
@@ -42,6 +42,9 @@ For analyzing the link between RNA secondary structures and R-loop formation, ru
 This will compute the polynomial representations of the RNA secondary structures produced by DrTransformer ([repository](https://github.com/ViennaRNA/drtransformer), [paper](https://doi.org/10.1093/bioinformatics/btad034)) with dot-bracket notations stored stored in the folder *data/pfc8_snrpn* and *data/pfc53_airn* and compute the coefficient sums.
 The results are stored in the files with names like *data/pFC8_type2.mat*.
 
+If one would like to reproduce the RNA secondary structures with DrTransformer, then one should segment the sequences of the plasmids stored in the files *data/pfc8_snrpn_coding_strand.fa* and *pfc53_airn_coding_strand.fa* as described in the paper, and input resulting sequence segments to DrTransformer. 
+To install and run DrTransformer, follow the instructions in its [repository](https://github.com/ViennaRNA/drtransformer).
+This will generate the files of dot-bracket notations in the folder *data/pfc8_snrpn* and *data/pfc53_airn*.
 
 ### To view the results in the paper and additional results
 
