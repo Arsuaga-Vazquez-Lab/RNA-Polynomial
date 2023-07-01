@@ -48,11 +48,14 @@ This will generate the files of dot-bracket notations in the folder *data/pfc8_s
 
 ### To view the results in the paper and additional results
 
+For clustering non-coding RNA secondary structures, run the file *Results_Clustering.m*.
+This will use the file *data/bpRNA_Rfam.mat* to perform tSNE visualization and k-medoids clustering with the pairwise polynomial distances between the non-coding RNA secondary structures and compute the misclassification rates.
 
+For visualizing the correlations between the scaled sums and the probabilities of R-loop formation, run the file *Results_Correlations.m*.
+This will use the files with names like *data/pFC8_type2.mat* to compute the scaled sums and compare with probabilities of R-loop formation constructed from the files with names like *data/pFC8_SUPERCOILED.bed*.
 
-
-
-
+For analyzing RNA secondary structures that contribute to large coefficient sums, run the file *Results_Structures.m*.
+This will use the files with names like *data/pFC8_type2.mat* to locate the RNA segments with the largest coefficient sums and visualize the RNA secondary structures predicted by DrTransformer with dot-bracket notations stored in the folder *data/pfc8_snrpn* and *data/pfc53_airn*.
 
 
 
