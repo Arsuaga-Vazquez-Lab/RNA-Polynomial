@@ -30,7 +30,11 @@ To compute the tree polynomial representations of your own data of RNA secondary
 2. use `L = dbn2pl(dbn,type)` convert the dot-bracket notation `dbn` to the parent list `L` of its tree representation of a selected `type`;
 3. use `P = pl2poly(dbn,type)` to compute the corresponding polynomial `P` from the parenet list `L` of the tree representation.
 
-### To reconduct the experiment and reproduce the results
+---
+
+### To reconduct the experiments and reproduce the results
+
+
 
 
 
