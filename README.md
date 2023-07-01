@@ -40,7 +40,7 @@ The results are stored in the file *data/bpRNA_Rfam.mat*.
 
 For analyzing the link between RNA secondary structures and R-loop formation, run the file *Process_Rloop.m*.
 This will compute the polynomial representations of the RNA secondary structures produced by DrTransformer ([repository](https://github.com/ViennaRNA/drtransformer), [paper](https://doi.org/10.1093/bioinformatics/btad034)) with dot-bracket notations stored stored in the folder *data/pfc8_snrpn* and *data/pfc53_airn* and compute the coefficient sums.
-The results are stored in the files with name *data/pFC*.mat*.
+The results are stored in the files with names like *data/pFC8_type2.mat*.
 
 
 ### To view the results in the paper and additional results
