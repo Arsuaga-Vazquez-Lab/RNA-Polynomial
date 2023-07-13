@@ -8,7 +8,7 @@ This repository includes code and data for experiments in the following paper.
 
 ## Setup
 
-Running the code requires [Matlab](https://matlab.mathworks.com) and additional [Matlab toolboxes](https://www.mathworks.com/products.html) including the Bioinformatics Toolbox and the Statistics and Machine Learning Toolbox.
+Running the code requires [Matlab](https://matlab.mathworks.com) with the Bioinformatics Toolbox and the Statistics and Machine Learning Toolbox; see [Matlab toolboxes](https://www.mathworks.com/products.html).
 
 After installing Matlab and required Matlab toolboxes, 
 1. clone (or download) this repository to a local directory;
