@@ -39,7 +39,7 @@ This will compute the tree polynomial representations of the RNA secondary struc
 The results are stored in the file *[data/bpRNA_Rfam.mat](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/bpRNA_Rfam.mat)*.
 
 For analyzing the link between RNA secondary structures and R-loop formation, run the file *[Process_Rloop.m](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/Process_Rloop.m)*.
-This will compute the polynomial representations of the RNA secondary structures produced by DrTransformer ([repository](https://github.com/ViennaRNA/drtransformer), [paper](https://doi.org/10.1093/bioinformatics/btad034)) with dot-bracket notations stored stored in the folder *data/pfc8_snrpn* and *data/pfc53_airn* and compute the coefficient sums.
+This will compute the polynomial representations of the RNA secondary structures produced by DrTransformer ([repository](https://github.com/ViennaRNA/drtransformer), [paper](https://doi.org/10.1093/bioinformatics/btad034)) with dot-bracket notations stored in the folder *data/pfc8_snrpn* and *data/pfc53_airn* and compute the coefficient sums.
 The results are stored in the files with names like *data/pFC8_type2.mat*.
 
 If one would like to reproduce the RNA secondary structures with DrTransformer, then one should segment the sequences of the plasmids stored in the files *data/pfc8_snrpn_coding_strand.fa* and *pfc53_airn_coding_strand.fa* as described in the paper, and input resulting sequence segments to DrTransformer. 
