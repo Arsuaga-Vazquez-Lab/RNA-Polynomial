@@ -21,7 +21,7 @@ Then, the setup is complete.
 
 ### To compute the tree polynomial representations of an RNA secondary structure
 
-The function *functions/dbn2pl.m* converts a dot-bracket notation of an RNA secondary structure without pseudoknots into a parent list of its tree representation of a selected type.
+The function *[functions/dbn2pl.m](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/functions/dbn2pl.m)* converts a dot-bracket notation of an RNA secondary structure without pseudoknots into a parent list of its tree representation of a selected type.
 The function *functions/pl2poly.m* then computes the corresponding polynomial with the parent list of the tree representation.
 See the file *Example.m* for an example of using the functions to compute the tree polynomial representations of an RNA secondary structure.
 
