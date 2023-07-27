@@ -1,6 +1,6 @@
 # DrTransformer-Runner
 
-DrTransformer-Runner is a script used to segment the sequences of the plasmids *[data/pfc8_snrpn_coding_strand.fa](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc53_airn_coding_strand.fa)* and *[pfc53_airn_coding_strand.fa](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc53_airn_coding_strand.fa)* and generate RNA secondary structures of the sequence segments stored in *[pfc8_snrpn.zip](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc8_snrpn.zip)* and *[pfc53_airn.zip](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc53_airn.zip)*
+DrTransformer-Runner is a script used to segment the sequences of the plasmids *[data/pfc8_snrpn_coding_strand.fa](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc53_airn_coding_strand.fa)* and *[pfc53_airn_coding_strand.fa](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc53_airn_coding_strand.fa)* and to generate sequence segments' secondary structures stored in *[pfc8_snrpn.zip](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc8_snrpn.zip)* and *[pfc53_airn.zip](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc53_airn.zip)* with DrTransformer.
 
 
 ## Setup
