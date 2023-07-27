@@ -42,8 +42,7 @@ For analyzing the link between RNA secondary structures and R-loop formation, ru
 This will compute the polynomial representations of the RNA secondary structures produced by DrTransformer ([repository](https://github.com/ViennaRNA/drtransformer), [paper](https://doi.org/10.1093/bioinformatics/btad034)) with dot-bracket notations stored in the folder *data/pfc8_snrpn* and *data/pfc53_airn* and compute the coefficient sums.
 The results are stored in the files with names like *data/pFC8_type2.mat*.
 
-If one would like to reproduce the RNA secondary structures with DrTransformer, then one should segment the sequences of the plasmids stored in the files *data/pfc8_snrpn_coding_strand.fa* and *pfc53_airn_coding_strand.fa* as described in the paper, and input resulting sequence segments to DrTransformer. 
-To install and run DrTransformer, follow the instructions in its [repository](https://github.com/ViennaRNA/drtransformer).
+If one would like to reproduce the RNA secondary structures with DrTransformer, then one should install DrTransformer (see the instructions in its [repository](https://github.com/ViennaRNA/drtransformer)) and use the *[drtransformer-runner script](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/tree/main/drtransformer-runner)* which segments the sequences of the plasmids stored in the files *[data/pfc8_snrpn_coding_strand.fa](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc53_airn_coding_strand.fa)* and *[pfc53_airn_coding_strand.fa](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc53_airn_coding_strand.fa)* and calls DrTransformer for predicting the secondary structrues of the sequence segments.
 This will generate the files of dot-bracket notations in the folder *data/pfc8_snrpn* and *data/pfc53_airn*.
 
 ### To view the results in the paper and additional results
