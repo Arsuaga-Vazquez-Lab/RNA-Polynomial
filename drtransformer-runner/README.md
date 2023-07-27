@@ -1,6 +1,7 @@
 # DrTransformer-Runner
 
-DrTransformer-Runner is a script used to generate the cotranscriptional data found in [/data/](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/tree/main/data) directory of this repository.
+DrTransformer-Runner is a script used to segment the sequences of the plasmids *[data/pfc8_snrpn_coding_strand.fa](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc53_airn_coding_strand.fa)* and *[pfc53_airn_coding_strand.fa](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc53_airn_coding_strand.fa)* and generate RNA secondary structures of the sequence segments stored in *[pfc8_snrpn.zip](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc8_snrpn.zip)* and *[pfc53_airn.zip](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/pfc53_airn.zip)*
+
 
 ## Setup
 
