@@ -34,9 +34,9 @@ To compute the tree polynomial representations of one's own data of RNA secondar
 
 ### To reconduct the experiments and reproduce the results
 
-For clustering non-coding RNA secondary structures, run the file *Process_Clustering.m*.
+For clustering non-coding RNA secondary structures, run the file *[Process_Clustering.m](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/Process_Clustering.m)*.
 This will compute the tree polynomial representations of the RNA secondary structures with dot-bracket notations stored in the folder *[data/bpRNA-Rfam](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/tree/main/data/bpRNA-Rfam)* and compute the pairwise polynomial distances between the RNA secondary structures.
-The results are stored in the file *data/bpRNA_Rfam.mat*.
+The results are stored in the file *[data/bpRNA_Rfam.mat](https://github.com/Arsuaga-Vazquez-Lab/RNA-Polynomial/blob/main/data/bpRNA_Rfam.mat)*.
 
 For analyzing the link between RNA secondary structures and R-loop formation, run the file *Process_Rloop.m*.
 This will compute the polynomial representations of the RNA secondary structures produced by DrTransformer ([repository](https://github.com/ViennaRNA/drtransformer), [paper](https://doi.org/10.1093/bioinformatics/btad034)) with dot-bracket notations stored stored in the folder *data/pfc8_snrpn* and *data/pfc53_airn* and compute the coefficient sums.
