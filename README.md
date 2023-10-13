@@ -4,7 +4,7 @@
 
 This repository includes code and data for experiments in the following paper. 
 
-[Pengyu Liu, Jacob Lusk, Mariel Vázquez, Analyzing the link between RNA secondary structures and R-loop formation with tree polynomials, *Preprint* (2023).](https://)
+[Pengyu Liu, Jacob Lusk, Nataša Jonoska, Mariel Vázquez, Analyzing the link between RNA secondary structures and R-loop formation with tree polynomials, *Preprint* (2023).](https://doi.org/10.1101/2023.09.24.559224)
 
 ## Setup
 
